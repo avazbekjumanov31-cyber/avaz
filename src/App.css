@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 90px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 180px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-side select {
+  border: none;
+  color: #00b9f2;
+  font-size: 18px;
+  background: transparent;
+}
+
+.login-btn-nav {
+  padding: 10px 25px;
+  border: 2px solid #00b9f2;
+  color: #00b9f2;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.connect-btn {
+  padding: 10px 25px;
+  border: 2px solid #0ab86d;
+  color: #0ab86d;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+.login-container {
+  width: 1100px;
+  margin: 40px auto;
+  background: white;
+  border: 1px solid #d8d8d8;
+}
+
+.login-header {
+  background: linear-gradient(#3448a4, #252b74);
+  color: white;
+
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-header a {
+  color: white;
+}
+
+.login-body {
+  padding: 35px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.input-row label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.input-row input {
+  width: 500px;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+
+  border: 1px solid #ccc;
+  background: #f4edcb;
+}
+
+.warning {
+  background: #ffd620;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.enter-btn {
+  margin-top: 20px;
+
+  width: 250px;
+  height: 65px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #9acb45;
+  color: white;
+
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.footer-login {
+  padding: 30px;
+  border-top: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.footer-login a {
+  color: #333;
+}
+label {
+  color: black;
+}
+
+.login-header h1 {
+  color: white; /* sarlavha oq qoladi */
+}
+
+.footer-login {
+  color: black;
+}
+
+.footer-login a {
+  color: black;
+}
+
+.warning {
+  color: black;
+}
+
+input {
+  color: black;
+}
